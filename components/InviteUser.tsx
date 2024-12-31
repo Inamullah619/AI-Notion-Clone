@@ -42,7 +42,7 @@ const InviteUser = () => {
     });
   };
   return (
-    <div>
+    // <div>
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <Button asChild variant={"outline"}>
           <DialogTrigger>Invite</DialogTrigger>
@@ -68,7 +68,6 @@ const InviteUser = () => {
           </form>
         </DialogContent>
       </Dialog>
-    </div>
   );
 };
 
