@@ -78,7 +78,7 @@ const Editor = () => {
       <div className="mb-10 flex items-center justify-end gap-2">
         {/* TranslateDocument AI */}
         <TranslateDocument doc={doc} />
-        {/* <ChatToDocument doc={doc} /> */}
+        <ChatToDocument doc={doc} />
         {/* ChatToDocument AI */}
 
         {/* Dark Mode */}
